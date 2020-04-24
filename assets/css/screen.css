@@ -111,7 +111,7 @@ body {
     margin-top: 64px;
     padding-bottom: 12px;
     color: #fff;
-    background: color(var(--darkgrey) l(-5%)) no-repeat center center;
+    background: color(var(--primary) l(-5%)) no-repeat center center;
     background-size: cover;
 }
 
@@ -124,7 +124,7 @@ body {
     left: 0;
     z-index: 10;
     display: block;
-    background: rgba(0, 0, 0, 0.18);
+    background: rgba(64, 191, 184, 0.18);
 }
 
 .site-header-background:after {
@@ -1854,7 +1854,7 @@ Usage (In Ghost editor):
 
 .read-next {
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    background: color(var(--darkgrey) l(-5%));
+    background: color(var(--softgrey) l(-5%));
 }
 
 .read-next-feed {
@@ -1913,8 +1913,8 @@ Usage (In Ghost editor):
     margin: 0 25px 50px;
     padding: 25px;
     background: linear-gradient(
-        color(var(--darkgrey) l(+2%)),
-        color(var(--darkgrey) l(-5%))
+        color(var(--midgrey) l(-10%)),
+        color(var(--darkgrey) l(+5%))
     );
     border-radius: 3px;
 }
@@ -2026,8 +2026,8 @@ Usage (In Ghost editor):
 }
 
 .read-next-card-footer a:hover {
-    border-color: var(--yellow);
-    color: var(--yellow);
+    border-color: var(--primary);
+    color: var(--primary);
     text-decoration: none;
 }
 
